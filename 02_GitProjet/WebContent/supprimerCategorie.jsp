@@ -11,7 +11,7 @@
 <title>Page Supprimer Catégorie</title>
 </head>
 <body>
-
+	<%@ include file="template/header.html"%>
 	<h1 style="color: red; text-align: center;">Formulaire de
 		supprimerS Catégorie</h1>
 
@@ -32,8 +32,8 @@
 						Catégorie</button>
 				</div>
 			</div>
-			
-			</div>
+
+		</div>
 	</form>
 
 

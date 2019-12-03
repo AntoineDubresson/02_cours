@@ -11,7 +11,7 @@
 <title>Page Modifier Catégorie</title>
 </head>
 <body>
-
+	<%@ include file="template/header.html"%>
 	<h1 style="color: red; text-align: center;">Formulaire de
 		modification Catégorie</h1>
 
