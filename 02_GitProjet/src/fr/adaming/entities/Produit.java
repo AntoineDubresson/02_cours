@@ -5,7 +5,7 @@ import java.util.List;
 public class Produit {
 
 	// Attributs
-	private long idProduit;
+	private int idProduit;
 	private String designation;
 	private String descripton;
 	private double prix;

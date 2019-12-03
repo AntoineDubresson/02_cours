@@ -8,7 +8,7 @@ public class Categorie {
 	// declaration des atributs
 	private long idCategorie;
 	private String nomCategorie;
-	private byte photo;
+	private String photo;
 	private String description;
 
 	// transformation de l'association uML en JAVA
