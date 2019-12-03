@@ -1,8 +1,5 @@
 package fr.adaming.controllers;
 
-public class MaClasse {
+public class maSecondeClasse {
 
-	
-	
-	
 }
