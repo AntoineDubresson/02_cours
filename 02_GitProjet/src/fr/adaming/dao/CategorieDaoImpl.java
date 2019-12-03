@@ -111,7 +111,7 @@ public class CategorieDaoImpl implements ICategorieDao {
 			cx = DriverManager.getConnection(URL, USERNAME, MDP);
 
 			// 3 construction de la requete SQL, à l'int de String SQL?
-			String req = "UPDATE produits SET nom_c, photo_c, description_c WHERE id_c=?";
+			String req = "UPDATE categories SET nom_c=?, photo_c=?, description_c=? WHERE id_c=?";
 
 			// Etape 4 et 5 : envoyer la requete et récupérer le résultat
 			// 4a: création d'un bus pour envoyer la requete sql à la bd
@@ -121,6 +121,7 @@ public class CategorieDaoImpl implements ICategorieDao {
 			ps.setString(1, cIn.getNomCategorie());
 			ps.setString(2, cIn.getPhoto());
 			ps.setString(3, cIn.getDescription());
+			ps.setInt(4, cIn.getIdCategorie());
 
 			// 4c et 5 : envoyer concretement la requete et récupération du
 			// résultats

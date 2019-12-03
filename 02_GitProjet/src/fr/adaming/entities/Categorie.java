@@ -6,7 +6,7 @@ import java.util.List;
 public class Categorie {
 
 	// declaration des atributs
-	private long idCategorie;
+	private int idCategorie;
 	private String nomCategorie;
 	private String photo;
 	private String description;
@@ -19,7 +19,18 @@ public class Categorie {
 		super();
 	}
 
-	public Categorie(long idCategorie, String nomCategorie, String photo, String description) {
+	
+	
+	public Categorie(String nomCategorie, String photo, String description) {
+		super();
+		this.nomCategorie = nomCategorie;
+		this.photo = photo;
+		this.description = description;
+	}
+
+
+
+	public Categorie(int idCategorie, String nomCategorie, String photo, String description) {
 		super();
 		this.idCategorie = idCategorie;
 		this.nomCategorie = nomCategorie;
@@ -28,11 +39,11 @@ public class Categorie {
 	}
 
 	// declarations des getters et setters
-	public long getIdCategorie() {
+	public int getIdCategorie() {
 		return idCategorie;
 	}
 
-	public void setIdCategorie(long idCategorie) {
+	public void setIdCategorie(int idCategorie) {
 		this.idCategorie = idCategorie;
 	}
 
