@@ -22,9 +22,19 @@ public class Produit {
 		super();
 	}
 
+	public Produit(String designation, String descripton, double prix, int quantite, boolean selectionne, String photo) {
+		super();
+		this.designation = designation;
+		this.descripton = descripton;
+		this.prix = prix;
+		this.quantite = quantite;
+		this.selectionne = selectionne;
+		this.photo = photo;
+	}
+
 	// Constructeur
-	public Produit(int idProduit, String designation, String descripton, double prix, int quantite,
-			boolean selectionne, String photo) {
+	public Produit(int idProduit, String designation, String descripton, double prix, int quantite, boolean selectionne,
+			String photo) {
 		super();
 		this.idProduit = idProduit;
 		this.designation = designation;

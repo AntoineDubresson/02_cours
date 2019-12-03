@@ -26,7 +26,7 @@ public class ProduitDaoImpl implements IProduitDao {
 			cx = DriverManager.getConnection(URL, USERNAME, MDP);
 
 			// Création de la requete
-			String req = "INSERT INTO produits (designation_p,decription_p,prix_p,quantite_p,selectionne_p,photo_p) VALUES (?,?,?,?,?,?)";
+			String req = "INSERT INTO produits (designation_p,description_p,prix_p,quantite_p,selectionne_p,photo_p) VALUES (?,?,?,?,?,?)";
 
 			// etape 4 création du bus
 			ps = cx.prepareStatement(req);
