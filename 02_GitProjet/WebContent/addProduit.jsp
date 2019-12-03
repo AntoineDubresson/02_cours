@@ -14,7 +14,7 @@
 	<%@ include file="template/header.html"%>
 
 	<div class="container">
-		<h1 style="color: red; text-align: center">Formulaire d'ajout</h1>
+		<h1 style="text-align: center">Formulaire d'ajout</h1>
 
 		<form class="form-horizontal" method="post" action="addProduit">
 			<div class="form-group">

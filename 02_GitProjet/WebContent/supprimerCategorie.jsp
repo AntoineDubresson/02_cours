@@ -11,9 +11,8 @@
 <title>Page Supprimer Catégorie</title>
 </head>
 <body>
-<%@ include file="template/header.html"%>
-	<h1 style="color: red; text-align: center;">Formulaire de
-		supprimerS Catégorie</h1>
+	<%@ include file="template/header.html"%>
+	<h1 style="text-align: center;">Formulaire de supprimer Catégorie</h1>
 
 	<form class="form-horizontal" method="post" action="suppC">
 
@@ -23,17 +22,18 @@
 				<input type="number" class="form-control" id="idId" placeholder="Id"
 					name="pId" required>
 			</div>
+		</div>
 
 
 
-			<div class="form-group">
-				<div class="col-sm-offset-4 col-sm-10">
-					<button type="submit" class="btn btn-success">Supprimer
-						Catégorie</button>
-				</div>
+		<div class="form-group">
+			<div class="col-sm-offset-4 col-sm-10">
+				<button type="submit" class="btn btn-info">Supprimer
+					Catégorie</button>
 			</div>
-			
-			</div>
+		</div>
+
+		</div>
 	</form>
 
 

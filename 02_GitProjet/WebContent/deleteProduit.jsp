@@ -21,7 +21,7 @@
 					produit : </label>
 				<div class="col-md-5">
 					<input type="number" class="form-control" id="idId"
-						placeholder="Id" name="pId" required>
+						placeholder="Id" name="pId" requi>
 				</div>
 			</div>
 			<div class="form-group">

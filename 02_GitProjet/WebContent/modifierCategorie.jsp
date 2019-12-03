@@ -12,8 +12,8 @@
 </head>
 <body>
 	<%@ include file="template/header.html"%>
-	<h1 style="color: red; text-align: center;">Formulaire de
-		modification Catégorie</h1>
+	<h1 style="text-align: center;">Formulaire de modification
+		Catégorie</h1>
 
 	<form class="form-horizontal" method="post" action="modifC">
 
@@ -23,38 +23,39 @@
 				<input type="number" class="form-control" id="idId" placeholder="Id"
 					name="pId" required>
 			</div>
+		</div>
 
 
-			<div class="form-group">
-				<label for="idNom" class="col-sm-4 control-label">Nom</label>
-				<div class="col-sm-5">
-					<input type="text" class="form-control" id="idNom"
-						placeholder="Nom" name="pNom">
-				</div>
+		<div class="form-group">
+			<label for="idNom" class="col-sm-4 control-label">Nom</label>
+			<div class="col-sm-5">
+				<input type="text" class="form-control" id="idNom" placeholder="Nom"
+					name="pNom">
 			</div>
+		</div>
 
-			<div class="form-group">
-				<label for="idPhoto" class="col-sm-4 control-label">Photo</label>
-				<div class="col-sm-5">
-					<input type="text" class="form-control" id="idPhoto"
-						placeholder="Photo" name="pPhoto">
-				</div>
+		<div class="form-group">
+			<label for="idPhoto" class="col-sm-4 control-label">Photo</label>
+			<div class="col-sm-5">
+				<input type="text" class="form-control" id="idPhoto"
+					placeholder="Photo" name="pPhoto">
 			</div>
+		</div>
 
-			<div class="form-group">
-				<label for="idDescription" class="col-sm-4 control-label">Description</label>
-				<div class="col-sm-5">
-					<input type="text" class="form-control" id="idDescription"
-						placeholder="Description" name="pDescription" required>
-				</div>
+		<div class="form-group">
+			<label for="idDescription" class="col-sm-4 control-label">Description</label>
+			<div class="col-sm-5">
+				<input type="text" class="form-control" id="idDescription"
+					placeholder="Description" name="pDescription" required>
 			</div>
+		</div>
 
-			<div class="form-group">
-				<div class="col-sm-offset-4 col-sm-10">
-					<button type="submit" class="btn btn-success">Modifier
-						Catégorie</button>
-				</div>
+		<div class="form-group">
+			<div class="col-sm-offset-4 col-sm-10">
+				<button type="submit" class="btn btn-info">Modifier
+					Catégorie</button>
 			</div>
+		</div>
 		</div>
 	</form>
 

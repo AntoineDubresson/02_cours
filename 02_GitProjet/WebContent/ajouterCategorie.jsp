@@ -12,7 +12,7 @@
 </head>
 <body>
 	<%@ include file="template/header.html"%>
-	<h1 style="color: red; text-align: center;">Formulaire d'ajout
+	<h1 style=" text-align: center;">Formulaire d'ajout
 		Catégorie</h1>
 
 	<form class="form-horizontal" method="post" action="ajoutC">
@@ -43,13 +43,10 @@
 
 		<div class="form-group">
 			<div class="col-sm-offset-4 col-sm-10">
-				<button type="submit" class="btn btn-success">Ajouter
+				<button type="submit" class="btn btn-info">Ajouter
 					Catégorie</button>
 			</div>
 		</div>
-
-
-
 	</form>
 
 

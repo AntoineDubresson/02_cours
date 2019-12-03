@@ -14,7 +14,7 @@
 	<%@ include file="template/header.html"%>
 
 	<div class="container">
-		<h1 style="color: red; text-align: center">Formulaire de
+		<h1 style=" text-align: center">Formulaire de
 			modification</h1>
 
 		<form class="form-horizontal" method="post" action="updProduit">
