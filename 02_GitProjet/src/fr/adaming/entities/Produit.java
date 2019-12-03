@@ -36,7 +36,7 @@ public class Produit {
 	}
 
 	// Getters et setters
-	public long getIdProduit() {
+	public int getIdProduit() {
 		return idProduit;
 	}
 
