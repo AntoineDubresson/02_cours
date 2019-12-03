@@ -1,5 +1,8 @@
 package fr.adaming.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Categorie {
 
 	// declaration des atributs
@@ -7,6 +10,9 @@ public class Categorie {
 	private String nomCategorie;
 	private byte photo;
 	private String description;
+
+	// transformation de l'association uML en JAVA
+	private List<Produit> listeProduit;
 
 	// declaration des constructeurs
 	public Categorie() {
@@ -52,6 +58,14 @@ public class Categorie {
 
 	public void setDescription(String description) {
 		this.description = description;
+	}
+
+	public List<Produit> getListeProduit() {
+		return listeProduit;
+	}
+
+	public void setListeProduit(List<Produit> listeProduit) {
+		this.listeProduit = listeProduit;
 	}
 
 }

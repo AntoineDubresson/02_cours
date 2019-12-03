@@ -1,5 +1,8 @@
 package fr.adaming.entities;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Client {
 
 	// declaration des attributs
@@ -8,6 +11,9 @@ public class Client {
 	private String adresse;
 	private String email;
 	private String tel;
+
+	// transformation de l'association uML en JAVA
+	List<Commande> listeCommande;
 
 	// declaration des constructeurs
 	public Client() {

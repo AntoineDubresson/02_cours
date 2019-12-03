@@ -1,22 +1,28 @@
 package fr.adaming.entities;
 
+import java.util.List;
+
 public class Produit {
-	
-	//Attributs
+
+	// Attributs
 	private long idProduit;
 	private String designation;
 	private String descripton;
-	private double prix; 
+	private double prix;
 	private int quantite;
 	private boolean selectionne;
 	private String photo;
-	
-	//Constructeur vide
+
+	// transformation de l'association uML en JAVA
+	private Categorie cat;
+	private List<LigneCommande> listeLigneCommande;
+
+	// Constructeur vide
 	public Produit() {
 		super();
 	}
-	
-	//Constructeur 
+
+	// Constructeur
 	public Produit(long idProduit, String designation, String descripton, double prix, int quantite,
 			boolean selectionne, String photo) {
 		super();
@@ -29,8 +35,7 @@ public class Produit {
 		this.photo = photo;
 	}
 
-	
-	//Getters et setters
+	// Getters et setters
 	public long getIdProduit() {
 		return idProduit;
 	}
@@ -85,14 +90,14 @@ public class Produit {
 
 	public void setPhoto(String photo) {
 		this.photo = photo;
-	} 
-	
-	
-	
-	
-	
-	
-	
-	
+	}
+
+	public Categorie getCat() {
+		return cat;
+	}
+
+	public void setCat(Categorie cat) {
+		this.cat = cat;
+	}
 
 }

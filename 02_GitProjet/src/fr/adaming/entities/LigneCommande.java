@@ -7,6 +7,11 @@ public class LigneCommande {
 	private int quantite;
 	private int prix;
 
+	// transformation de l'association uML en JAVA
+	private Panier pan;
+	private Produit prod;
+	private Commande cmd;
+
 	// declarations des constructeurs
 	public LigneCommande() {
 		super();
