@@ -23,7 +23,7 @@ public class Produit {
 	}
 
 	// Constructeur
-	public Produit(long idProduit, String designation, String descripton, double prix, int quantite,
+	public Produit(int idProduit, String designation, String descripton, double prix, int quantite,
 			boolean selectionne, String photo) {
 		super();
 		this.idProduit = idProduit;
@@ -40,7 +40,7 @@ public class Produit {
 		return idProduit;
 	}
 
-	public void setIdProduit(long idProduit) {
+	public void setIdProduit(int idProduit) {
 		this.idProduit = idProduit;
 	}
 

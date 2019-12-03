@@ -19,7 +19,7 @@ public class Categorie {
 		super();
 	}
 
-	public Categorie(long idCategorie, String nomCategorie, byte photo, String description) {
+	public Categorie(long idCategorie, String nomCategorie, String photo, String description) {
 		super();
 		this.idCategorie = idCategorie;
 		this.nomCategorie = nomCategorie;
@@ -44,11 +44,11 @@ public class Categorie {
 		this.nomCategorie = nomCategorie;
 	}
 
-	public byte getPhoto() {
+	public String getPhoto() {
 		return photo;
 	}
 
-	public void setPhoto(byte photo) {
+	public void setPhoto(String photo) {
 		this.photo = photo;
 	}
 
